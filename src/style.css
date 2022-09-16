@@ -3,9 +3,10 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  height: 100%;
 
   color-scheme: light dark;
-  color: rgba(65, 64, 72, 0.87);
+  color: rgba(186, 186, 186, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -30,6 +31,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  height: 100%;
 }
 
 h1 {
