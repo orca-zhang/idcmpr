@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "dev": "vite docs",
+    "build": "vue-tsc --noEmit && vite build docs",
+    "preview": "vite preview docs"
   },
   "dependencies": {
     "vant": "^3.6.2",
