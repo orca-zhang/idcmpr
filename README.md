@@ -1,8 +1,8 @@
 # 🪪 身份证号压缩算法
 
-<p align="center">
+<p align="left">
   <a href="https://orca-zhang.github.io/idcmpr" alt='docs'>
-    <img src="https://img.shields.io/badge/docs-在线demo点我-blue.svg?style=flat">
+    <img src="https://img.shields.io/badge/docs-在线demo点我-blue.svg?style=square">
   </a>
 </p>
 
