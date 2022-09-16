@@ -44,11 +44,12 @@ export function cmpr(id:string):number {
     let m = ~~id.substring(10, 12);
     let d = ~~id.substring(12, 14);
     let sn = ~~id.substring(14, 17);
+    let tail:number;
     if(y < 1900) {
-        let tail = (((1900 - y) * 12 + m - 1) * 31 + d - 1) * 100 + sn;
-        return idx * Math.pow(2, 26) + tail;
+        tail = (((1900 - y) * 12 + m - 1) * 31 + d - 1) * 100 + sn;
     }
-    let tail = (558100 + (((y - 1900) * 12 + m - 1) * 31 + d - 1) * 1000 + sn);
+    tail = (558100 + (((y - 1900) * 12 + m - 1) * 31 + d - 1) * 1000 + sn);
+    // 因为js超过32位无法用位运算，会被截断到32位，所以只能用乘以2^x的方式绕过去，其他语言用 (idx << 26) | tail
     return idx * Math.pow(2, 26) + tail;
 }
 
