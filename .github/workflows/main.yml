@@ -18,7 +18,7 @@ jobs:
         with:
           useLockFile: false
       - name: Run build
-        run: npm run build
+        run: npm run build && sed -i 's/assets/idcmpr\/assets/g' ./dist/index.html
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v3
