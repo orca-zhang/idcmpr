@@ -7,7 +7,6 @@
 
   color-scheme: light dark;
   color: rgba(186, 186, 186, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,6 +31,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   height: 100%;
+  background-color: #242424;
 }
 
 h1 {
