@@ -27,7 +27,7 @@
 
 ## 设计方案
 
-- 对于使用护照等其他证件的情况，可以考虑使用外部数据库，存储稀疏记录。
+- 对于使用护照等其他证件的情况，可以考虑在外部存储稀疏记录。
 
 - (1)(2)(3)可以考虑打表，参照最新2020的区域代码表，包括历史已经撤销的区县，一共6734个，用13 bit存储。
 
@@ -50,18 +50,16 @@
   <tr>
     <td align="center">
       <a href="https://code.visualstudio.com" style="height: 64px;">
-      <svg height="64" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="64" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
-        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-      </svg>
+        <img src="https://github.com/orca-zhang/idcmpr/raw/master/vscode.svg" width="64px;" alt=""/>
         <br />
         <b>vscode</b>
       </a>
     </td>
     <td align="center">
       <a href="https://vuejs.org">
-        <svg class="logo" viewBox="0 0 128 128" width="64px;" height="64px;" data-v-97393f76=""><path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-97393f76=""></path><path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-97393f76=""></path></svg>
+        <img src="https://github.com/orca-zhang/idcmpr/raw/master/vue.svg" width="64px;" alt=""/>
         <br />
-        <b>vue3</b>
+        <b>vue</b>
       </a>
     </td>
     <td align="center">
