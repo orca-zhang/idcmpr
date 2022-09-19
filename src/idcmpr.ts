@@ -1,6 +1,7 @@
 // 来源：https://github.com/jxlwqq/address-code-of-china 地址码更新至 2020 年 12 月版本
 // 经过加工处理过：去重和排序，便于二分查找
-import * as rs from "./regions.json";
+import * as regions from "./regions.json";
+const rs:any[] = (regions as any).default;
 
 function code2idx(item:number) {
     let low = 0;
